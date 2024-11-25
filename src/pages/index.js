@@ -84,7 +84,7 @@ export default function Home() {
     </a>
   </div>
 
-  <div className="flex justify-center gap-4">
+  <div className="flex justify-center gap-4 mb-2">
     <a
       href="mailto:Richardhao0629@gmail.com"
       className="text-blue-600 dark:text-blue-400 hover:underline"
@@ -102,10 +102,10 @@ export default function Home() {
       </header>
     </div>
       {/* Main Content */}
-      <main className="pt-20 px-8 sm:px-20 space-y-6">
+      <main className="pt-12 px-8 sm:px-20 space-y-6">
         {/* Professional Summary */}
-        <section id="summary" className="mt-8">
-          <h2 className="text-3xl font-semibold mb-4 text-blue-400">Professional Summary</h2>
+        <section id="summary" className="mt-4">
+          <h2 className="text-3xl font-semibold mb-2 text-blue-400">Professional Summary</h2>
           <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
             <p className="text-lg">
               Motivated Computer Science student with strong proficiency in Python, Java, and web
