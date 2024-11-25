@@ -1,4 +1,3 @@
-import Image from "next/image";
 import localFont from "next/font/local";
 
 const geistSans = localFont({
@@ -109,7 +108,7 @@ export default function Home() {
               PHP, CSS, HTML, JavaScript, SQL
             </p>
             <p>
-              Developed a children's gaming website, leading a small team to create responsive
+              Developed a children&apos;s gaming website, leading a small team to create responsive
               designs and manage secure databases. Ensured timely project delivery while optimizing
               performance and scalability.
             </p>
