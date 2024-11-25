@@ -14,43 +14,41 @@ const geistMono = localFont({
 export default function Home() {
   return (
     <div
-      className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100 p-8 sm:p-20`}
+      className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gray-100 text-gray-900 dark:bg-gray-900 dark:text-gray-100`}
     >
-      <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-2">Juncheng Hao</h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400">Montreal, QC, Canada</p>
-        <div className="flex justify-center gap-4 mt-4">
-          <a
-            href="https://www.linkedin.com/in/juncheng-hao-462828260/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/JunchengHao"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            GitHub
-          </a>
-          <a
-            href="mailto:Richardhao0629@gmail.com"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            Richardhao0629@gmail.com
-          </a>
-          <p className="text-gray-600 dark:text-gray-400">514-549-9666</p>
+      {/* Navigation Bar */}
+      <nav className="fixed top-0 left-0 w-full bg-gray-900 text-gray-100 shadow-lg z-50">
+        <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
+          <h1 className="text-xl font-bold">Juncheng Hao</h1>
+          <ul className="flex space-x-6">
+            <li>
+              <a href="#summary" className="hover:text-blue-400">Summary</a>
+            </li>
+            <li>
+              <a href="#skills" className="hover:text-blue-400">Skills</a>
+            </li>
+            <li>
+              <a href="#education" className="hover:text-blue-400">Education</a>
+            </li>
+            <li>
+              <a href="#projects" className="hover:text-blue-400">Projects</a>
+            </li>
+            <li>
+              <a href="#experience" className="hover:text-blue-400">Experience</a>
+            </li>
+            <li>
+              <a href="#languages" className="hover:text-blue-400">Languages</a>
+            </li>
+          </ul>
         </div>
-      </header>
+      </nav>
 
-      <main className="space-y-12">
+      {/* Main Content */}
+      <main className="pt-20 px-8 sm:px-20 space-y-12">
         {/* Professional Summary */}
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Professional Summary</h2>
-          <p>
+        <section id="summary" className="mt-8">
+          <h2 className="text-3xl font-semibold mb-4">Professional Summary</h2>
+          <p className="text-lg">
             Motivated Computer Science student with strong proficiency in Python, Java, and web
             development. Experienced in developing and optimizing algorithms, as well as creating
             robust software solutions. Passionate about learning new technologies and contributing
@@ -61,89 +59,77 @@ export default function Home() {
         </section>
 
         {/* Technical Skills */}
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Technical Skills</h2>
-          <ul className="grid grid-cols-2 sm:grid-cols-3 gap-4 list-disc pl-5">
-            <li>Python</li>
-            <li>Java</li>
-            <li>Swift</li>
-            <li>C#</li>
-            <li>JavaScript</li>
-            <li>HTML/CSS/PHP</li>
-            <li>Node.js</li>
-            <li>MySQL</li>
-            <li>Git</li>
-            <li>Docker</li>
-            <li>Adobe Photoshop/Illustrator/InDesign</li>
-            <li>Agile/Scrum</li>
-          </ul>
-        </section>
-
-        {/* Education */}
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Education</h2>
-          <div>
-            <h3 className="text-lg font-bold">DEP of Computer Science</h3>
-            <p>Lasalle College, Montreal, Canada (Jan 2023 - May 2025)</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Relevant Coursework: Object-Oriented Programming, Software Development Lifecycle,
-              Database Systems, Computer Networks, Web Development
-            </p>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-bold">DVS of Graphic Design</h3>
-            <p>Saint Pius X Career Centre, Montreal, Canada (Sep 2016 - Sep 2017)</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Fundamentals of design, typography, color theory, and composition.
-            </p>
-          </div>
-        </section>
-
-        {/* Projects */}
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Projects</h2>
-          <div>
-            <h3 className="text-lg font-bold">Kids Game Website – Lead Developer</h3>
-            <p className="text-gray-600 dark:text-gray-400">
-              PHP, CSS, HTML, JavaScript, SQL
-            </p>
-            <p>
-              Developed a children&apos;s gaming website, leading a small team to create responsive
-              designs and manage secure databases. Ensured timely project delivery while optimizing
-              performance and scalability.
-            </p>
-          </div>
-        </section>
-
-        {/* Experiences */}
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Experiences</h2>
-          <div>
-            <h3 className="text-lg font-bold">Graphic Designer</h3>
-            <p>MengChengHui, Montréal, QC (May 2017 - Aug 2017)</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Proficient in Adobe Creative Suite, including Adobe Photoshop and InDesign.
-            </p>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-bold">Computer Store Manager</h3>
-            <p>Kingpaq Computer Store, Verdun, QC (May 2018 - Jul 2022)</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Provided technical support and resolved hardware and software issues.
-            </p>
-          </div>
-          <div className="mt-4">
-            <h3 className="text-lg font-bold">Export Manager</h3>
-            <p>Yu Qilin Textile Agricultural Machine Co., China (Sep 2020 - Jul 2022)</p>
-            <p className="text-gray-600 dark:text-gray-400">
-              Managed international sales and logistics for import/export processes.
-            </p>
+        <section id="skills">
+          <h2 className="text-3xl font-semibold mb-4">Skills</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Programming Languages</h3>
+              <ul className="list-disc pl-5">
+                <li>Java</li>
+                <li>Python</li>
+                <li>Swift</li>
+                <li>C#</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Web Development</h3>
+              <ul className="list-disc pl-5">
+                <li>HTML, CSS, JavaScript</li>
+                <li>jQuery</li>
+                <li>PHP</li>
+                <li>Django (Web Framework)</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Mobile Development</h3>
+              <ul className="list-disc pl-5">
+                <li>Android (Java, Kotlin)</li>
+                <li>iOS (Swift)</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Database Management</h3>
+              <ul className="list-disc pl-5">
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>SQLite</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Tools & Frameworks</h3>
+              <ul className="list-disc pl-5">
+                <li>Android Studio</li>
+                <li>Xcode</li>
+                <li>Git, GitHub</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Operating Systems</h3>
+              <ul className="list-disc pl-5">
+                <li>Windows</li>
+                <li>macOS</li>
+                <li>Linux</li>
+              </ul>
+            </div>
           </div>
         </section>
 
-        {/* Languages */}
-        <section>
-          <h2 className="text-2xl font-semibold mb-4">Languages</h2>
+        {/* Remaining Sections */}
+        <section id="education">
+          <h2 className="text-3xl font-semibold mb-4">Education</h2>
+          {/* Add education details here */}
+        </section>
+        <section id="projects">
+          <h2 className="text-3xl font-semibold mb-4">Projects</h2>
+          {/* Add project details here */}
+        </section>
+        <section id="experience">
+          <h2 className="text-3xl font-semibold mb-4">Experience</h2>
+          {/* Add experience details here */}
+        </section>
+        <section id="languages">
+          <h2 className="text-3xl font-semibold mb-4">Languages</h2>
           <ul className="list-disc pl-5">
             <li>English: Advanced</li>
             <li>French: Advanced</li>
