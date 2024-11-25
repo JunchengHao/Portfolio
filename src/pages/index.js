@@ -102,7 +102,7 @@ export default function Home() {
       </header>
     </div>
       {/* Main Content */}
-      <main className="pt-20 px-8 sm:px-20 space-y-12">
+      <main className="pt-20 px-8 sm:px-20 space-y-6">
         {/* Professional Summary */}
         <section id="summary" className="mt-8">
           <h2 className="text-3xl font-semibold mb-4 text-blue-400">Professional Summary</h2>
