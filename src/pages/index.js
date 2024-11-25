@@ -19,7 +19,7 @@ export default function Home() {
     >
       <header className="text-center mb-12">
         <h1 className="text-4xl font-bold mb-2">Juncheng Hao</h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400">Montreal, Canada</p>
+        <p className="text-lg text-gray-600 dark:text-gray-400">Montreal, QC, Canada</p>
         <div className="flex justify-center gap-4 mt-4">
           <a
             href="https://www.linkedin.com/in/juncheng-hao-462828260/"
