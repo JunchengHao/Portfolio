@@ -19,7 +19,7 @@ export default function Home() {
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full bg-gray-900 text-gray-100 shadow-md z-50">
         <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
-          <h1 className="text-xl font-bold">Juncheng Hao</h1>
+          <h1 className="text-xl font-bold">Juncheng Hao's portfolio</h1>
           <ul className="flex space-x-6">
             <li>
               <a href="#summary" className="hover:text-blue-400">Summary</a>
@@ -42,7 +42,7 @@ export default function Home() {
           </ul>
           {/* Download CV Button */}
           <a
-            href="/Juncheng_cv.pdf"
+            href="portfolio_juncheng/public/Juncheng_cv.pdf"
             download="Juncheng_cv.pdf"
             className="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-lg transition duration-300"
           >
@@ -50,6 +50,36 @@ export default function Home() {
           </a>
         </div>
       </nav>
+      
+      <header className="text-center mb-12">
+        <h1 className="text-4xl font-bold mb-2">Juncheng Hao</h1>
+        <p className="text-lg text-gray-600 dark:text-gray-400">Montreal, QC, Canada</p>
+        <div className="flex justify-center gap-4 mt-4">
+          <a
+            href="https://www.linkedin.com/in/juncheng-hao-462828260/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/JunchengHao"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            GitHub
+          </a>
+          <a
+            href="mailto:Richardhao0629@gmail.com"
+            className="text-blue-600 dark:text-blue-400 hover:underline"
+          >
+            Richardhao0629@gmail.com
+          </a>
+          <p className="text-gray-600 dark:text-gray-400">514-549-9666</p>
+        </div>
+      </header>
 
       {/* Main Content */}
       <main className="pt-20 px-8 sm:px-20 space-y-12">
@@ -70,10 +100,9 @@ export default function Home() {
 
         {/* Technical Skills */}
         <section id="skills">
-          <h2 className="text-3xl font-semibold mb-4 text-blue-400">Skills</h2>
+          <h2 className="text-3xl font-semibold mb-4">Skills</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* Individual Skill Cards */}
-            <div className="p-6 bg-gray-800 rounded-lg shadow-md">
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
               <h3 className="text-xl font-bold text-purple-400 mb-4">Programming Languages</h3>
               <ul className="list-disc pl-5">
                 <li>Java</li>
@@ -83,7 +112,46 @@ export default function Home() {
                 <li>JavaScript</li>
               </ul>
             </div>
-            {/* Add remaining skill sections similar to the provided image */}
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Web Development</h3>
+              <ul className="list-disc pl-5">
+                <li>HTML, CSS, JavaScript</li>
+                <li>jQuery</li>
+                <li>PHP</li>
+                <li>Django (Web Framework)</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Mobile Development</h3>
+              <ul className="list-disc pl-5">
+                <li>Android (Java, Kotlin)</li>
+                <li>iOS (Swift)</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Database Management</h3>
+              <ul className="list-disc pl-5">
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>SQLite</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Tools & Frameworks</h3>
+              <ul className="list-disc pl-5">
+                <li>Android Studio</li>
+                <li>Xcode</li>
+                <li>Git, GitHub</li>
+              </ul>
+            </div>
+            <div className="p-6 bg-gray-800 text-gray-100 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold text-purple-400 mb-4">Operating Systems</h3>
+              <ul className="list-disc pl-5">
+                <li>Windows</li>
+                <li>macOS</li>
+                <li>Linux</li>
+              </ul>
+            </div>
           </div>
         </section>
 
