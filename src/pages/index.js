@@ -52,35 +52,39 @@ export default function Home() {
       </nav>
       
       <header className="text-center mb-12">
-        <h1 className="text-4xl font-bold mb-2">Juncheng Hao</h1>
-        <p className="text-lg text-gray-600 dark:text-gray-400">Montreal, QC, Canada</p>
-        <div className="flex justify-center gap-4 mt-4">
-          <a
-            href="https://www.linkedin.com/in/juncheng-hao-462828260/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            LinkedIn
-          </a>
-          <a
-            href="https://github.com/JunchengHao"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            GitHub
-          </a>
-          <a
-            href="mailto:Richardhao0629@gmail.com"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
-          >
-            Richardhao0629@gmail.com
-          </a>
-          <p className="text-gray-600 dark:text-gray-400">514-549-9666</p>
-        </div>
-      </header>
-
+  <h1 className="text-4xl font-bold mb-2">Juncheng Hao</h1>
+  <p className="text-lg text-gray-600 dark:text-gray-400">Montreal, QC, Canada</p>
+  <div className="flex justify-center flex-wrap gap-4 mt-4">
+    <a
+      href="https://www.linkedin.com/in/juncheng-hao-462828260/"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 dark:text-blue-400 hover:underline"
+    >
+      LinkedIn
+    </a>
+    <a
+      href="https://github.com/JunchengHao"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-blue-600 dark:text-blue-400 hover:underline"
+    >
+      GitHub
+    </a>
+    <a
+      href="mailto:Richardhao0629@gmail.com"
+      className="text-blue-600 dark:text-blue-400 hover:underline"
+    >
+      Richardhao0629@gmail.com
+    </a>
+    <a
+      href="tel:5145499666"
+      className="text-blue-600 dark:text-blue-400 hover:underline"
+    >
+      514-549-9666
+    </a>
+  </div>
+</header>
       {/* Main Content */}
       <main className="pt-20 px-8 sm:px-20 space-y-12">
         {/* Professional Summary */}
