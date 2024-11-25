@@ -19,7 +19,7 @@ export default function Home() {
       {/* Navigation Bar */}
       <nav className="fixed top-0 left-0 w-full bg-gray-900 text-gray-100 shadow-md z-50">
         <div className="max-w-6xl mx-auto px-4 flex justify-between items-center h-16">
-          <h1 className="text-xl font-bold">Juncheng Hao's portfolio</h1>
+          <h1 className="text-xl font-bold">Juncheng Hao&apos;s portfolio</h1>
           <ul className="flex space-x-6">
             <li>
               <a href="#summary" className="hover:text-blue-400">Summary</a>
@@ -181,55 +181,9 @@ export default function Home() {
         <section id="projects">
           <h2 className="text-3xl font-semibold mb-4 text-blue-400">Projects</h2>
           <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold text-purple-400">Kids Game Website – Lead Developer</h3>
+            <h3 className="text-xl font-bold text-purple-400">Project Name</h3>
             <p className="text-gray-400 mt-2">
-              <strong>Technologies:</strong> PHP, CSS, HTML, JavaScript, SQL
             </p>
-            <p className="mt-2">
-              Developed a children&apos;s gaming website, leading a small team to create responsive
-              designs and manage secure databases. Ensured timely project delivery while optimizing
-              performance and scalability.
-            </p>
-          </div>
-        </section>
-
-        {/* Experience */}
-        <section id="experience">
-          <h2 className="text-3xl font-semibold mb-4 text-blue-400">Experience</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-purple-400">Graphic Designer</h3>
-              <p>MengChengHui, Montréal, QC (May 2017 - Aug 2017)</p>
-              <p className="text-gray-400 mt-2">
-                Proficient in Adobe Creative Suite, including Adobe Photoshop and InDesign.
-              </p>
-            </div>
-            <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-purple-400">Computer Store Manager</h3>
-              <p>Kingpaq Computer Store, Verdun, QC (May 2018 - Jul 2022)</p>
-              <p className="text-gray-400 mt-2">
-                Provided technical support and resolved hardware and software issues.
-              </p>
-            </div>
-            <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-purple-400">Export Manager</h3>
-              <p>Yu Qilin Textile Agricultural Machine Co., China (Sep 2020 - Jul 2022)</p>
-              <p className="text-gray-400 mt-2">
-                Managed international sales and logistics for import/export processes.
-              </p>
-            </div>
-          </div>
-        </section>
-
-        {/* Languages */}
-        <section id="languages">
-          <h2 className="text-3xl font-semibold mb-4 text-blue-400">Languages</h2>
-          <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
-            <ul className="list-disc pl-5">
-              <li>English: Advanced</li>
-              <li>French: Advanced</li>
-              <li>Chinese (Mandarin): Native</li>
-            </ul>
           </div>
         </section>
       </main>
