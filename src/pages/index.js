@@ -199,19 +199,43 @@ export default function Home() {
 
         {/* Projects */}
         <section id="projects">
-          <h2 className="text-3xl font-semibold mb-4 text-blue-400">Projects</h2>
-          <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
-            <h3 className="text-xl font-bold text-purple-400">Kids Game Website – Lead Developer</h3>
-            <p className="text-gray-400 mt-2">
-              <strong>Technologies:</strong> PHP, CSS, HTML, JavaScript, SQL
-            </p>
-            <p className="mt-2">
-              Developed a children&apos;s gaming website, leading a small team to create responsive
-              designs and manage secure databases. Ensured timely project delivery while optimizing
-              performance and scalability.
-            </p>
-          </div>
-        </section>
+  <h2 className="text-3xl font-semibold mb-4 text-blue-400">Projects</h2>
+  <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
+    <h3 className="text-xl font-bold text-purple-400">Kids Game Website – Lead Developer</h3>
+    <p className="text-gray-400 mt-2">
+      <strong>Technologies:</strong> PHP, CSS, HTML, JavaScript, SQL
+    </p>
+    <p className="mt-2">
+      Developed a children&apos;s gaming website, leading a small team to create responsive
+      designs and manage secure databases. Ensured timely project delivery while optimizing
+      performance and scalability.
+    </p>
+    <a href="https://github.com/zhiyu0617/php_Final_Project" target="_blank" rel="noopener noreferrer">
+      <button className="mt-4 py-2 px-6 bg-purple-500 text-white rounded-lg hover:bg-purple-700 transition duration-300">View on GitHub</button>
+    </a>
+  </div>
+  <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
+    <h3 className="text-xl font-bold text-purple-400">Restaurant Ordering App – Lead Developer</h3>
+    <div className="mt-4">
+      <img src="/image.jpg" alt="Restaurant Ordering App" className="w-full h-auto rounded-lg shadow-md"/>
+    </div>
+    <p className="text-gray-400 mt-2">
+      <strong>Technologies:</strong> Node.js, Android, CSS, HTML, Stripe API, Firebase
+    </p>
+    <p className="mt-2">
+      Developed a restaurant ordering Android app, leading the development of both merchant and customer sides
+      of the platform. Integrated features such as product listing for merchants, order management, and secure
+      payment processing using Stripe API. Utilized Firebase for real-time data updates and ensured a smooth,
+      user-friendly experience. Managed the app&apos;s scalability, security, and performance to deliver a reliable and
+      efficient solution.
+    </p>
+    <a href="https://github.com/YamadaElf1/Project-Android-Team-3" target="_blank" rel="noopener noreferrer">
+      <button className="mt-4 py-2 px-6 bg-purple-500 text-white rounded-lg hover:bg-purple-700 transition duration-300">View on GitHub</button>
+    </a>
+  </div>
+
+</section>
+
 
         {/* Experience */}
         <section id="experience">
@@ -252,6 +276,24 @@ export default function Home() {
             </ul>
           </div>
         </section>
+
+        <section id="testimonials">
+  <h2 className="text-3xl font-semibold mb-4 text-blue-400">Testimonials</h2>
+
+  <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
+    <h3 className="text-xl font-bold text-purple-400">John – Peer</h3>
+    <p className="text-gray-400 mt-2">
+      "I enjoyed working with Juncheng on the restaurant app. He is skilled, reliable, and always ready to help solve any problems."
+    </p>
+  </div>
+  <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
+    <h3 className="text-xl font-bold text-purple-400">Professor Li – Mentor</h3>
+    <p className="text-gray-400 mt-2">
+      "I've seen Juncheng grow into a strong developer. His dedication and attention to detail make him a valuable team member."
+    </p>
+  </div>
+</section>
+
       </main>
     </div>
   );
