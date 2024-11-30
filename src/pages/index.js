@@ -283,16 +283,17 @@ export default function Home() {
   <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
     <h3 className="text-xl font-bold text-purple-400">John – Peer</h3>
     <p className="text-gray-400 mt-2">
-      "I enjoyed working with Juncheng on the restaurant app. He is skilled, reliable, and always ready to help solve any problems."
+      &quot;I enjoyed working with Juncheng on the restaurant app. He is skilled, reliable, and always ready to help solve any problems.&quot;
     </p>
   </div>
   <div className="p-6 bg-gray-800 rounded-lg shadow-lg">
     <h3 className="text-xl font-bold text-purple-400">Professor Li – Mentor</h3>
     <p className="text-gray-400 mt-2">
-      "I&apos;ve seen Juncheng grow into a strong developer. His dedication and attention to detail make him a valuable team member."
+      &quot;I&apos;ve seen Juncheng grow into a strong developer. His dedication and attention to detail make him a valuable team member.&quot;
     </p>
   </div>
 </section>
+
 
       </main>
     </div>
